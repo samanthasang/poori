@@ -1,0 +1,343 @@
+@font-face {
+    font-family: "YekanBakh_Heavy";
+    src: url('fonts/Yekan_Bakh_Heavy.ttf') format('woff');
+}
+
+@font-face {
+    font-family: "YekanBakh_Bold";
+    src: url('fonts/Yekan_Bakh_Fat.ttf') format('woff');
+}
+
+@font-face {
+    font-family: "YekanBakh_Medium";
+    src: url('fonts/YekanBakh-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: "YekanBakh_Regural";
+    src: url('fonts/Yekan_Bakh_Regular.ttf') format('woff');
+}
+
+@font-face {
+    font-family: "YekanBakh_Light";
+    src: url('fonts/YekanBakh-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Lalezar_Regular";
+    src: url('fonts/Lalezar-Regular.otf') format('woff');
+}
+
+@font-face {
+    font-family: "IRAN_Sans_Bold";
+    src: url('fonts/IRAN_Sans_Bold.ttf') format('woff');
+}
+
+@font-face {
+    font-family: "Yekan_Bakh_Fat";
+    src: url('fonts/Yekan_Bakh_Fat.ttf') format('woff');
+}
+
+
+/* CSS RESET */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+body {
+    background: #d7d7d7;
+    font-family: 'YekanBakh_Regural'!important;
+    direction: rtl;
+}
+
+a {
+    text-decoration: none!important;
+    transition: .2s ease-out;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+}
+
+li {
+    list-style: none;
+}
+
+ :focus {
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.p0 {
+    padding: 0!important;
+}
+
+
+/* Home */
+/* swiper */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+img {
+    color: #ff9;
+}
+/*------------ media_screen ---------------*/
+
+@media only screen and (max-width: 250px) {}
+
+@media only screen and (max-width: 300px) and (min-width: 250px) {}
+
+@media only screen and (max-width: 350px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 400px) and (min-width: 350px) {}
+
+@media only screen and (max-width: 450px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 500px) and (min-width: 450px) {}
+
+@media only screen and (max-width: 550px) and (min-width: 500px) {}
+
+@media only screen and (max-width: 600px) and (min-width: 550px) {}
+
+@media only screen and (max-width: 650px) and (min-width: 600px) {}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media (min-width: 600px) {
+}
+
+@media (max-width: 535px) {
+}
+
+@media (max-width: 600px) {}
+
+
+/* sm */
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 765px) {}
+
+
+/* md */
+
+@media (min-width: 992px) {
+}
+
+@media (max-width: 992px) {}
+
+
+/* lg */
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1320px) {
+}
+
+@media (min-width: 320px) and (max-width: 350px) {
+}
+
+@media (min-width: 350px) and (max-width: 375px) {
+}
+
+@media (min-width: 375px) and (max-width: 400px) {
+}
+
+@media (min-width: 400px) and (max-width: 536px) {
+}
